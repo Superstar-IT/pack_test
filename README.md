@@ -14,9 +14,9 @@ cp env-example .env
 ```
 Create new Postgres DB named `pack_test` in local
 
-Change `DATABASE_HOST=postgres` to `DATABASE_HOST=localhost`
-Change `APP_PORT=3000` to `APP_PORT=5000`
-Change `BACKEND_DOMAIN=http://localhost:3000` to `BACKEND_DOMAIN=http://localhost:5000`
+Change `DATABASE_HOST=postgres` to `DATABASE_HOST=localhost` <br />
+Change `APP_PORT=3000` to `APP_PORT=5000` <br />
+Change `BACKEND_DOMAIN=http://localhost:3000` to `BACKEND_DOMAIN=http://localhost:5000` <br />
 Change `DATABASE_NAME=api` to `DATABASE_NAME=pack_test`
 
 ```bash
